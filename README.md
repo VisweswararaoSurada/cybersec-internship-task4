@@ -60,6 +60,11 @@ To                         Action      From
 [ 4] 22 (v6)                    ALLOW IN    Anywhere (v6)
 
 ```
+Final Firewall Rules
+
+Port 22 (SSH): Allowed ✅
+
+Port 23 (Telnet): Allowed (tested both deny/allow)
 
 ## Files in this Repo
 - `README.md` — explanation of steps and learning outcome  
