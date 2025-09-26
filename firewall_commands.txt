@@ -25,5 +25,24 @@ sudo ufw status numbered
 ## Delete Rule (example: #2)
 sudo ufw delete 2
 
+
 ---
-# Paste your actual terminal outputs below each command when running this task.
+all commands that i have used 
+
+sudo apt install ufw -y
+sudo ufw status
+sudo ufw enable
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 22/tcp
+sudo ufw deny 23/tcp
+sudo ufw status numbered
+telnet localhost 23
+sudo ufw allow 23
+sudo ufw allow 22
+sudo ufw status numbered
+
+---
+Logs show successful deny/allow tests for Telnet (23) and SSH (22).
+
+
