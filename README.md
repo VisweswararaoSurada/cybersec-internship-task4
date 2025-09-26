@@ -54,6 +54,11 @@ To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW       Anywhere
 23/tcp                     DENY        Anywhere
+[ 1] 23                         ALLOW IN    Anywhere
+[ 2] 22                         ALLOW IN    Anywhere
+[ 3] 23 (v6)                    ALLOW IN    Anywhere (v6)
+[ 4] 22 (v6)                    ALLOW IN    Anywhere (v6)
+
 ```
 
 ## Files in this Repo
