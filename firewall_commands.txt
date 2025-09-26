@@ -1,0 +1,29 @@
+# Firewall Commands and Outputs (Linux UFW)
+
+## Install UFW
+sudo apt install ufw -y
+
+## Check Status
+sudo ufw status
+
+## Enable UFW
+sudo ufw enable
+
+## Default Policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+## Allow SSH (22)
+sudo ufw allow 22/tcp
+
+## Block Telnet (23)
+sudo ufw deny 23/tcp
+
+## List Rules
+sudo ufw status numbered
+
+## Delete Rule (example: #2)
+sudo ufw delete 2
+
+---
+# Paste your actual terminal outputs below each command when running this task.
