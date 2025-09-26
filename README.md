@@ -63,7 +63,7 @@ To                         Action      From
 
 ## Files in this Repo
 - `README.md` — explanation of steps and learning outcome  
-- `firewall_commands.txt` — actual commands and outputs (to be filled by me)  
+- `firewall_commands.txt` — actual commands and outputs  
 - `screenshots/` — screenshots of commands and results  
 
 ## What I Learned
